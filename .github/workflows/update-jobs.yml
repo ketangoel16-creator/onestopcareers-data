@@ -5,12 +5,20 @@ on:
     - cron: "0 */6 * * *"  # Runs every 6 hours
   workflow_dispatch:       # Allow manual trigger
 
+permissions:
+  contents: write   # ✅ Required to push changes
+
 jobs:
   update-json:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create docs folder if not exists
+        run: mkdir -p docs
 
       - name: Fetch JSON from Google Script
         run: |
@@ -21,5 +29,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/jobs.json
-          git commit -m "Auto-update jobs.json"
+          git commit -m "Auto-update jobs.json" || echo "No changes to commit"
           git push
