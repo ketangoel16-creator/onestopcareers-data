@@ -24,10 +24,15 @@ jobs:
         run: |
           curl -s "https://script.google.com/macros/s/AKfycbzxRN194Nx7sio2lGw7yiWBjL63h1eRstGJMCVrrrxzn1pKq2NThKz_GUKtrdQA2Q/exec" -o docs/jobs.json
 
+      - name: Create _headers file for caching
+        run: |
+          echo "/jobs.json" > docs/_headers
+          echo "  Cache-Control: public, max-age=21600" >> docs/_headers
+
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/jobs.json
-          git commit -m "Auto-update jobs.json" || echo "No changes to commit"
+          git add docs/jobs.json docs/_headers
+          git commit -m "Auto-update jobs.json and cache headers" || echo "No changes to commit"
           git push
