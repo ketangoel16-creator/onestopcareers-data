@@ -2,7 +2,7 @@ name: Update Jobs JSON
 
 on:
   schedule:
-    - cron: "0 */6 * * *" # Runs every 6 hours
+    - cron: "*/5 * * * *" # Runs every 5 minutes for testing
   workflow_dispatch:
 
 permissions:
@@ -23,7 +23,7 @@ jobs:
 
       - name: Add cache headers and nojekyll
         run: |
-          echo "/jobs.json cache-control=max-age=21600" > .gitattributes
+          echo "/jobs.json cache-control=max-age=300" > .gitattributes # 300 seconds = 5 mins
           touch .nojekyll
 
       - name: Commit and push changes
