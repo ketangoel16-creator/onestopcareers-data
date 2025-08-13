@@ -3,35 +3,33 @@ name: Update Jobs JSON
 on:
   schedule:
     - cron: "0 */6 * * *" # Runs every 6 hours
-  workflow_dispatch:       # Allow manual trigger from Actions tab
+  workflow_dispatch:
 
 permissions:
-  contents: write  # ✅ Gives this workflow permission to push changes
+  contents: write
 
 jobs:
   update-json:
     runs-on: ubuntu-latest
     steps:
-      # 1️⃣ Checkout the repo using token with write permissions
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # 2️⃣ Make sure docs folder exists (this is what GitHub Pages will serve)
-      - name: Create docs folder if not exists
-        run: mkdir -p docs
-
-      # 3️⃣ Fetch JSON from your Apps Script endpoint
       - name: Fetch JSON from Google Script
         run: |
-          curl -s "https://script.google.com/macros/s/AKfycbxkNzLxTbcxm-_2bXINoeexEr3XoyCOwRivujnB6MJp-GUV-9bIg8Bnt4-L-OXSAxXB/exec" -o docs/jobs.json
+          curl -sL "https://script.google.com/macros/s/AKfycbxkNzLxTbcxm-_2bXINoeexEr3XoyCOwRivujnB6MJp-GUV-9bIg8Bnt4-L-OXSAxXB/exec" -o jobs.json
 
-      # 4️⃣ Commit and push only if there are changes
+      - name: Add cache headers and nojekyll
+        run: |
+          echo "/jobs.json cache-control=max-age=21600" > .gitattributes
+          touch .nojekyll
+
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/jobs.json
+          git add jobs.json .gitattributes .nojekyll
           git commit -m "Auto-update jobs.json from Google Script" || echo "No changes to commit"
           git push
