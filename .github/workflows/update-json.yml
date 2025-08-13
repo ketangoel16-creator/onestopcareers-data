@@ -1,30 +1,27 @@
-name: Update Jobs JSON
+name: Fetch Jobs JSON from Google Script
 
 on:
   schedule:
-    - cron: "0 */6 * * *"  # Runs every 6 hours
-  workflow_dispatch:       # Allow manual trigger
-
-permissions:
-  contents: write   # Required to push changes
+    - cron: "0 */6 * * *" # Every 6 hours
+  workflow_dispatch:      # Allow manual trigger
 
 jobs:
   update-json:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Fetch JSON from Google Script
         run: |
+          # Direct EXEC URL (no redirect)
           curl -s "https://script.google.com/macros/s/AKfycbxkNzLxTbcxm-_2bXINoeexEr3XoyCOwRivujnB6MJp-GUV-9bIg8Bnt4-L-OXSAxXB/exec" -o jobs.json
 
       - name: Commit and push changes
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
           git add jobs.json
-          git commit -m "Auto-update jobs.json" || echo "No changes to commit"
+          git commit -m "Auto-update jobs.json from Google Script" || echo "No changes to commit"
           git push
