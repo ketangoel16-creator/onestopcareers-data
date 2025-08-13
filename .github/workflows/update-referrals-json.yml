@@ -1,0 +1,45 @@
+# This workflow automatically fetches JSON data from a Google Apps Script web app
+# and saves it to a file named 'referrals.json' in this repository.
+
+name: Update Referrals JSON
+
+on:
+  # The workflow is scheduled to run at 00:00, 06:00, 12:00, and 18:00 UTC.
+  # You can adjust the cron schedule as needed.
+  schedule:
+    - cron: "0 */6 * * *"
+  
+  # Allows you to run this workflow manually from the Actions tab in GitHub.
+  workflow_dispatch:
+
+permissions:
+  # Grants the workflow permission to write to the repository's contents.
+  contents: write
+
+jobs:
+  update-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Fetch JSON from Google Script
+        # IMPORTANT: Replace the URL below with the executable web app URL
+        # you get after deploying your Apps Script 'doGet' function.
+        run: |
+          curl -sL "https://script.google.com/macros/s/AKfycbwrfgGzuaSH1Nezt7JCWDxbkk8ekmOVTT_TXlYUbB1jpexvbWBybegQneJMcCRKU9kQ/exec" -o referrals.json
+
+      - name: Add cache headers and nojekyll
+        run: |
+          echo "/referrals.json cache-control=max-age=21600" > .gitattributes
+          touch .nojekyll
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add referrals.json .gitattributes .nojekyll
+          git commit -m "Auto-update referrals.json from Google Script" || echo "No changes to commit"
+          git push
