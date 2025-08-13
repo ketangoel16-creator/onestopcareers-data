@@ -3,10 +3,10 @@ name: Update Jobs JSON
 on:
   schedule:
     - cron: "0 */6 * * *"  # Runs every 6 hours
-  workflow_dispatch:       # Allow manual trigger from Actions tab
+  workflow_dispatch:       # Allow manual trigger
 
 permissions:
-  contents: write
+  contents: write   # Required to push changes
 
 jobs:
   update-json:
@@ -14,10 +14,12 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Fetch JSON from Google Script
         run: |
-          curl -s "https://script.googleusercontent.com/macros/echo?user_content_key=AehSKLjk6ZWW1U1Sl94inGUsUvM9CaYsfm8df8YtMLd9V56LeL6mDQeVRJPr74y1CmY5tS08rcU7oxSh0eXAbBoS6XTA4Ko3875TfnvgU1MQmPRs_7h1V7sbpNMyMK6JilW7V5AAiLBdF8ltqNbmodq4O4bXi8Of2cs0xvxRiyWoCEIKBEYGEZJpkxuN11SUk7EBihX2YH-LITo3F6D8ieAh72efc3QgtHZjjustcrT4d0ev0XA4TafQ3CZy96mpRVkjYdydj9C8PXKaK0wEfNy4Lg5ZANHdMA&lib=MjKkONclyNJvWiz6-zOiKsFMOtaQ-MCV5" -o jobs.json
+          curl -s "https://script.google.com/macros/s/AKfycbxkNzLxTbcxm-_2bXINoeexEr3XoyCOwRivujnB6MJp-GUV-9bIg8Bnt4-L-OXSAxXB/exec" -o jobs.json
 
       - name: Commit and push changes
         run: |
