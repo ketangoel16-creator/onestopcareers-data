@@ -1,98 +1,962 @@
 [
   {
-    "Name": "Ketan ",
-    "Designation": "Founder",
-    "Company name": "Google",
-    "Link": "https://www.linkedin.com/in/goelketan/"
+    "Name": "Harshit Raj Sinha",
+    "Designation": "Sde/ ecommerce",
+    "Company name": "Delta Airlines",
+    "Link": "https://www.linkedin.com/in/harshit-raj-sinha"
   },
   {
-    "Name": "Jeevan",
-    "Designation": "Associate Director",
-    "Company name": "JP morgan",
-    "Link": "https://www.linkedin.com/in/goelketan/"
+    "Name": "Reem Hassan",
+    "Designation": "Micco Companies",
+    "Company name": "Micco Companies",
+    "Link": "https://www.linkedin.com/in/egyx3d"
   },
   {
-    "Name": "Ram ",
-    "Designation": "LBA",
-    "Company name": "Visa",
-    "Link": "https://www.linkedin.com/in/goelketan/"
+    "Name": "Sivaani",
+    "Designation": "Systems Engineer",
+    "Company name": "Tata Consultancy Sevices",
+    "Link": "https://www.linkedin.com/in/sivaani-talanki"
   },
   {
-    "Name": "Laxman ",
+    "Name": "Kartike Gupta",
+    "Designation": "Senior Software Engineer",
+    "Company name": "HCLTech",
+    "Link": "https://www.linkedin.com/in/kartike-gupta-365566233"
+  },
+  {
+    "Name": "Siddharth Chhabra",
+    "Designation": "Senior Data Engineer",
+    "Company name": "Barclays",
+    "Link": "https://www.linkedin.com/in/siddharthchhabra19/"
+  },
+  {
+    "Name": "Asmita Sengupta",
+    "Designation": "Seller support associate",
+    "Company name": "Amazon",
+    "Link": "https://www.linkedin.com/in/asmita-sengupta-09a25a120"
+  },
+  {
+    "Name": "Vishvas Devarasetty",
+    "Designation": "Associate software engineer",
+    "Company name": "PwC",
+    "Link": "https://www.linkedin.com/in/vishvas-devarasetty-9777bb228"
+  },
+  {
+    "Name": "Manasvi Negi",
+    "Designation": "Decision scientist",
+    "Company name": "Mu Sigma",
+    "Link": "https://www.linkedin.com/in/manasvi-negi-0ba953190/"
+  },
+  {
+    "Name": "Aishwarya Jagdish Patil",
+    "Designation": "Data Scientist",
+    "Company name": "Mu Sigma",
+    "Link": "https://www.linkedin.com/in/aishwaryajpatil"
+  },
+  {
+    "Name": "Shubhada D",
+    "Designation": "Consultant",
+    "Company name": "Ernst Young",
+    "Link": "http://www.linkedin.com/in/shubhadadavid%20/h"
+  },
+  {
+    "Name": "Ajith IS",
+    "Designation": "Data Scientist",
+    "Company name": "Mu Sigma Business Solutions",
+    "Link": "https://www.linkedin.com/in/ajith-selvaraju-912bb01bb"
+  },
+  {
+    "Name": "Shubhangi kulhare",
+    "Designation": "Senior system engineer",
+    "Company name": "Infosys Ltd",
+    "Link": "https://www.linkedin.com/in/kulhare"
+  },
+  {
+    "Name": "Sahas V Swamy",
+    "Designation": "Senior Researcher",
+    "Company name": "NITK Surathkal",
+    "Link": "https://www.linkedin.com/in/sahasvswamy"
+  },
+  {
+    "Name": "Ruben Reji",
+    "Designation": "Generative AI Developer/Consultant",
+    "Company name": "Capgemini",
+    "Link": "https://in.linkedin.com/in/rubenreji"
+  },
+  {
+    "Name": "Mallemoina Gurudarpan",
+    "Designation": "Computer vision engineer",
+    "Company name": "Master Works software pvt ltd",
+    "Link": "https://www.linkedin.com/in/gurudarpan-yadav-49a54a1a2"
+  },
+  {
+    "Name": "Vikash Kumar",
+    "Designation": "Software Engineer - IBM Cloud",
+    "Company name": "IBM ISDL",
+    "Link": "https://www.linkedin.com/in/kvvik2020"
+  },
+  {
+    "Name": "Pranamika Das",
+    "Designation": "Graduate Engineer Trainee",
+    "Company name": "Essar",
+    "Link": "https://www.linkedin.com/in/pranamika-das-ba09a820a"
+  },
+  {
+    "Name": "Susmitha chaparala",
+    "Designation": "Engineer ( android development)",
+    "Company name": "Samsung r&d",
+    "Link": "https://www.linkedin.com/in/susmitha-chaparala-90b739192"
+  },
+  {
+    "Name": "Kota kavya",
+    "Designation": "Power bi developer",
+    "Company name": "Infosys",
+    "Link": "https://www.linkedin.com/in/kota-kavya-kota-kavya"
+  },
+  {
+    "Name": "Pratham Jain",
+    "Designation": "Associate Consultant",
+    "Company name": "ZS Associates",
+    "Link": "https://www.linkedin.com/in/pratham-jain-1a3452160"
+  },
+  {
+    "Name": "Heena Chugh",
+    "Designation": "FP&A",
+    "Company name": "Mobikiwik",
+    "Link": "https://www.linkedin.com/in/heenahc"
+  },
+  {
+    "Name": "Debanshu Das",
+    "Designation": "Consultant",
+    "Company name": "Capgemini",
+    "Link": "https://www.linkedin.com/in/debanshu-das-7347821ba/"
+  },
+  {
+    "Name": "Shrutirupa Banerjiee",
+    "Designation": "Security Research Lead/ Malware research, threat intelligence, dark web OSINT",
+    "Company name": "Quick Heal",
+    "Link": "https://www.linkedin.com/in/shrutirupa-banerjiee/"
+  },
+  {
+    "Name": "Yogita Jhanwar",
+    "Designation": "Senior",
+    "Company name": "KPMG",
+    "Link": "https://www.linkedin.com/in/yogitajhanwar"
+  },
+  {
+    "Name": "Radha Thakare",
+    "Designation": "Software Developer",
+    "Company name": "Wavel ai",
+    "Link": "https://www.linkedin.com/in/radha-thakare"
+  },
+  {
+    "Name": "Dipanshu Gayakwad",
+    "Designation": "Business Team",
+    "Company name": "Meesho",
+    "Link": "https://www.linkedin.com/in/dipanshu1502"
+  },
+  {
+    "Name": "Amanat Kamboj",
     "Designation": "Software Engineer",
-    "Company name": "Master card",
-    "Link": "https://www.linkedin.com/in/goelketan/"
+    "Company name": "Orange Business",
+    "Link": "https://www.linkedin.com/in/amanat-kamboj-5942481aa/"
   },
   {
-    "Name": "Ketan ",
-    "Designation": "Analytics ",
-    "Company name": "target ",
-    "Link": "https://www.linkedin.com/in/goelketan/"
+    "Name": "Saashi Chauhan",
+    "Designation": "Senior executive Talent Acquisition",
+    "Company name": "Infoedge",
+    "Link": "https://www.linkedin.com/in/saashi-chauhan"
   },
   {
-    "Name": "Ketan ",
-    "Designation": "tech ",
-    "Company name": "Makemytrip",
-    "Link": "https://www.linkedin.com/in/goelketan/"
+    "Name": "Kumari Rachna",
+    "Designation": "Product specialist",
+    "Company name": "Vertoz Advertising Pvt Ltd",
+    "Link": "https://www.linkedin.com/in/jharachna"
   },
   {
-    "Name": "Ketan ",
-    "Designation": "tech ",
+    "Name": "Pankaj Gupta",
+    "Designation": "Developer",
+    "Company name": "SAP Labs",
+    "Link": "https://www.linkedin.com/in/pankajgupta2900"
+  },
+  {
+    "Name": "Pratha Jaiswal",
+    "Designation": "Software development Engineer",
+    "Company name": "MakeMyTrip",
+    "Link": "http://linkedin.com/in/pratha-jaiswal-1534651b1"
+  },
+  {
+    "Name": "Satyam kumar",
+    "Designation": "Developer 1",
+    "Company name": "EXL Services",
+    "Link": "https://www.linkedin.com/in/satyam-kumar-bb3584192/"
+  },
+  {
+    "Name": "Vishal Bambole",
+    "Designation": "Senior system engineer",
+    "Company name": "Infosys",
+    "Link": "Https://www.linkedin.com/in/vishal-bambole-250914199"
+  },
+  {
+    "Name": "Sejal Gupta",
+    "Designation": "Associate Software Engineer",
+    "Company name": "Accenture",
+    "Link": "https://www.linkedin.com/in/sejal-gupta-1301b2179/"
+  },
+  {
+    "Name": "Prachi payal Pattnaik",
+    "Designation": "PMO",
+    "Company name": "Joules to watts",
+    "Link": "https://www.linkedin.com/in/prachi-payal-pattnaik-730a96153"
+  },
+  {
+    "Name": "UDAY SONTAKKE",
+    "Designation": "Client service development",
+    "Company name": "Indimart",
+    "Link": "https://www.linkedin.com/in/uday-sontakke-b16211219"
+  },
+  {
+    "Name": "Arsh Bhatia",
+    "Designation": "Technical Associate",
+    "Company name": "Razorpay",
+    "Link": "https://www.linkedin.com/in/arsh-bhatia-/"
+  },
+  {
+    "Name": "Vivek Shyamkuwar",
+    "Designation": "Executive Associate",
+    "Company name": "Meghe Group",
+    "Link": "https://www.linkedin.com/in/vivekshyamkuwar"
+  },
+  {
+    "Name": "Gadekari Haritha",
+    "Designation": "Go AI associate",
+    "Company name": "Previously worked at Amazon Go AI associate",
+    "Link": "https://www.linkedin.com/in/gadekari-haritha"
+  },
+  {
+    "Name": "Ravindra Parimi",
+    "Designation": "System Administrator",
+    "Company name": "Bitla Software Pvt Ltd",
+    "Link": "https://www.linkedin.com/in/ravindra-parimi-5168b223a"
+  },
+  {
+    "Name": "Aashi Mangla",
+    "Designation": "Global Team Head",
+    "Company name": "Twisty Designs",
+    "Link": "https://www.linkedin.com/in/aashi-mangla-8460041b3/"
+  },
+  {
+    "Name": "Kunal",
+    "Designation": "Executive",
+    "Company name": "AKGVG & Associates",
+    "Link": "https://www.linkedin.com/feed/"
+  },
+  {
+    "Name": "Anand Kumar",
+    "Designation": "PhD Researcher and Lecturer",
+    "Company name": "DCU Business School",
+    "Link": "https://www.linkedin.com/in/anand-kumar95/"
+  },
+  {
+    "Name": "SANDEEP RATHOD",
+    "Designation": "Application Developer",
+    "Company name": "Oracle",
+    "Link": "https://www.linkedin.com/in/sandeep-rathod-166444208/"
+  },
+  {
+    "Name": "Sandeep Singh",
+    "Designation": "Associate",
+    "Company name": "Axtria",
+    "Link": "https://www.linkedin.com/in/sandeep-7s/"
+  },
+  {
+    "Name": "Hridyesh Ojha",
+    "Designation": "Data engineer",
+    "Company name": "Infosys ltd",
+    "Link": "https://www.linkedin.com/in/hridyesh-ojha-9948301b0"
+  },
+  {
+    "Name": "Akash Garg",
+    "Designation": "Software Engineer (Data Science)",
+    "Company name": "Siemens",
+    "Link": "https://www.linkedin.com/in/akash-garg-ds"
+  },
+  {
+    "Name": "Sagar Jha",
+    "Designation": "Senior Associate Data Scientist",
+    "Company name": "Genpact",
+    "Link": "https://www.linkedin.com/in/itssagarjha"
+  },
+  {
+    "Name": "Bostaan Khan",
+    "Designation": "Insurance Associate",
+    "Company name": "MetLife",
+    "Link": "https://www.linkedin.com/in/bostaan-khan-3292a6202"
+  },
+  {
+    "Name": "Navonmesh Mehta",
+    "Designation": "Software Development Engineer",
+    "Company name": "Dice Enterprises",
+    "Link": "https://www.linkedin.com/in/navonmesh-mehta/"
+  },
+  {
+    "Name": "Ayush Anil Barai",
+    "Designation": "Software Engineer",
+    "Company name": "CGI",
+    "Link": "https://www.linkedin.com/in/ayushbarai/"
+  },
+  {
+    "Name": "Hardik Setia",
+    "Designation": "Software Engineer",
+    "Company name": "Fiserv",
+    "Link": "https://www.linkedin.com/hardik08"
+  },
+  {
+    "Name": "Shivani Saini",
+    "Designation": "Associate Consultant",
+    "Company name": "Capgemini",
+    "Link": "https://www.linkedin.com/in/shivani-saini-8594b5157"
+  },
+  {
+    "Name": "Pritha Pathak",
+    "Designation": "Senior Software Engineer",
+    "Company name": "Accenture",
+    "Link": "https://www.linkedin.com/in/prithapathak/"
+  },
+  {
+    "Name": "Gajendra Kumar Nagar",
+    "Designation": "Software Engineer 1",
+    "Company name": "My AI Front desk",
+    "Link": "https://www.linkedin.com/in/gajendra-kumar-nagar"
+  },
+  {
+    "Name": "Tarun sharma",
+    "Designation": "Associate/Cat-Modelling",
+    "Company name": "WNS Global Services",
+    "Link": "https://www.linkedin.com/in/tarun-sharma-321a61225/"
+  },
+  {
+    "Name": "Ritvik Bhardwaj",
+    "Designation": "Data science",
+    "Company name": "Sahi global pvt ltd",
+    "Link": "https://www.linkedin.com/in/ritvik-bhardwaj-736b63277"
+  },
+  {
+    "Name": "VIDYUT PURI",
+    "Designation": "BA",
+    "Company name": "Sapiens",
+    "Link": "https://www.linkedin.com/in/vidyutpuri"
+  },
+  {
+    "Name": "Abhinav Pamarthi",
+    "Designation": "Senior Software Engineer",
+    "Company name": "Optum",
+    "Link": "https://www.linkedin.com/in/abhinav-pamarthi/"
+  },
+  {
+    "Name": "Kshitiz Agrahari",
+    "Designation": "System Engineer",
+    "Company name": "Tata Consultancy Services",
+    "Link": "https://www.linkedin.com/in/kshitiz122/"
+  },
+  {
+    "Name": "Deepak Deshmukh",
+    "Designation": "Associate software Engineer",
+    "Company name": "Sansys Informatics Pvt Ltd Bhopal",
+    "Link": "http://linkedin.com/in/deepakdeshmukh04"
+  },
+  {
+    "Name": "Harshi Jain",
+    "Designation": "Developer",
+    "Company name": "Mastek",
+    "Link": "https://www.linkedin.com/in/harshi-jain-392a48207/"
+  },
+  {
+    "Name": "Vivek Hadpad",
+    "Designation": "Data Science",
     "Company name": "Meesho",
-    "Link": "https://www.linkedin.com/in/goelketan/"
+    "Link": "https://www.linkedin.com/in/vivek-hadpad-7bb65622a/"
   },
   {
-    "Name": "Ketan ",
-    "Designation": "tech ",
-    "Company name": "Meesho",
-    "Link": "https://www.linkedin.com/in/goelketan/"
+    "Name": "Tanavarapu Gireesh Kumar",
+    "Designation": "Full stack developer",
+    "Company name": "LTIMindtree",
+    "Link": "https://www.linkedin.com/in/gireesh-kumar-t-469536320"
   },
   {
-    "Name": "Ketan ",
-    "Designation": "tech ",
-    "Company name": "Meesho",
-    "Link": "https://www.linkedin.com/in/goelketan/"
+    "Name": "Aniket bhedurkar",
+    "Designation": "Senior Area sales Executive",
+    "Company name": "EXIDE Industries",
+    "Link": "http://linkedin.com/in/aniket-bhedurkar-50aa45226"
   },
   {
-    "Name": "Ketan ",
-    "Designation": "tech ",
-    "Company name": "Meesho",
-    "Link": "https://www.linkedin.com/in/goelketan/"
+    "Name": "Shruti singh",
+    "Designation": "Business Delivery Officer 1",
+    "Company name": "Alter Domus",
+    "Link": "https://hhtps://www.linkedin.com/in/shruti-singh-3a58198/"
   },
   {
-    "Name": "Ketan ",
-    "Designation": "tech ",
-    "Company name": "Meesho",
-    "Link": "https://www.linkedin.com/in/goelketan/"
+    "Name": "RISHAB GUPTA",
+    "Designation": "Associate data engineer",
+    "Company name": "Go digit insurance",
+    "Link": "https://www.linkedin.com/in/rishab-gupta-5250461b5"
   },
   {
-    "Name": "Ketan ",
-    "Designation": "tech ",
-    "Company name": "Meesho",
-    "Link": "https://www.linkedin.com/in/goelketan/"
+    "Name": "Shubham Mishra",
+    "Designation": "Senior AI ML Engineer",
+    "Company name": "Accenture",
+    "Link": "https://www.linkedin.com/in/shubham-mishra-genai28"
   },
   {
-    "Name": "Ketan ",
-    "Designation": "tech ",
-    "Company name": "Meesho",
-    "Link": "https://www.linkedin.com/in/goelketan/"
+    "Name": "Kurli Prathap Reddy",
+    "Designation": "System engineer",
+    "Company name": "TCS",
+    "Link": "https://www.linkedin.com/in/prathap-reddy-kurli-63a81b1b0"
   },
   {
-    "Name": "Ketan ",
-    "Designation": "tech ",
-    "Company name": "Meesho",
-    "Link": "https://www.linkedin.com/in/goelketan/"
+    "Name": "Lasya Nallamalli",
+    "Designation": "Associate Software Engineer II - Full Stack dev",
+    "Company name": "Optum",
+    "Link": "https://www.linkedin.com/in/lasya-n-4903241aa"
   },
   {
-    "Name": "Ketan ",
-    "Designation": "tech ",
-    "Company name": "Meesho",
-    "Link": "https://www.linkedin.com/in/goelketan/"
+    "Name": "Hrushikesh T",
+    "Designation": "Associate (Software Engineer)",
+    "Company name": "Cognizant",
+    "Link": "https://www.linkedin.com/in/hrushikesh17/"
   },
   {
-    "Name": "Ketan ",
-    "Designation": "tech ",
-    "Company name": "Meesho",
-    "Link": "https://www.linkedin.com/in/goelketan/"
+    "Name": "LANCE MARCUS P",
+    "Designation": "Devops Engineer/AWS",
+    "Company name": "GO-Digit",
+    "Link": "https://www.linkedin.com/in/lance-marcus-b07276a8"
+  },
+  {
+    "Name": "Rishabh Singh Rana",
+    "Designation": "Sde2",
+    "Company name": "Siemens",
+    "Link": "https://www.linkedin.com/in/rishabh0198"
+  },
+  {
+    "Name": "Aashi Jain",
+    "Designation": "Software Developer",
+    "Company name": "Whirlpool Corporation",
+    "Link": "https://www.linkedin.com/in/aashijn07/"
+  },
+  {
+    "Name": "Purushothaman Srikanth",
+    "Designation": "Data Engineer - 2",
+    "Company name": "Salesforce",
+    "Link": "https://www.linkedin.com/in/purushothaman-srikanth"
+  },
+  {
+    "Name": "Mohit Kumar",
+    "Designation": "Consultant",
+    "Company name": "Deloitte USI",
+    "Link": "https://www.linkedin.com/in/mohit-kumar-977b87125/"
+  },
+  {
+    "Name": "Ritesh Sinkar",
+    "Designation": "Software Developer",
+    "Company name": "Vodafone Idea Ltd.",
+    "Link": "https://www.linkedin.com/in/ritesh-sinkar/"
+  },
+  {
+    "Name": "Gurpreet Singh",
+    "Designation": "Software Engineer",
+    "Company name": "Paytm",
+    "Link": "https://www.linkedin.com/in/gsingh97323"
+  },
+  {
+    "Name": "Gunjan",
+    "Designation": "Data Scientist",
+    "Company name": "Accenture Strategy",
+    "Link": "https://www.linkedin.com/in/gunjan0799/"
+  },
+  {
+    "Name": "Kanjiya Yash",
+    "Designation": "L3 Application Engineer",
+    "Company name": "Jio Platform Limited",
+    "Link": "https://www.linkedin.com/in/yash-kanjiya"
+  },
+  {
+    "Name": "Aditya Tiwari",
+    "Designation": "AI/ML Product Developer",
+    "Company name": "AllEvents",
+    "Link": "https://www.linkedin.com/in/aditya-tiwari-24b4b924a/"
+  },
+  {
+    "Name": "Yogita Jain",
+    "Designation": "Cloud Data Engineer",
+    "Company name": "Deloitte",
+    "Link": "https://www.linkedin.com/in/yogita-jain-6247a1188"
+  },
+  {
+    "Name": "Deepanshi Agarwal",
+    "Designation": "Software Engineer",
+    "Company name": "LTIMindtree",
+    "Link": "https://www.linkedin.com/in/deepanshi-agarwal-6a06b6205"
+  },
+  {
+    "Name": "Abhishek Sa",
+    "Designation": "ASE",
+    "Company name": "Infinite computer solutions Pvt Ltd",
+    "Link": "https://in.linkedin.com/in/abhishek-sa11"
+  },
+  {
+    "Name": "Jaideep Bhatia",
+    "Designation": "Consultant/Software Engineer/Sap Commerce Developer",
+    "Company name": "Deloitte USI",
+    "Link": "https://www.linkedin.com/in/jaideep-b"
+  },
+  {
+    "Name": "Fadwa boukaissi",
+    "Designation": "Retail",
+    "Company name": "Second cup coffee shop",
+    "Link": "http://www.linkedin.com/in/fedwa-bou-977085298"
+  },
+  {
+    "Name": "Pravin Krishnat Korade",
+    "Designation": "Data Engineer.",
+    "Company name": "Datametica Solution Pvt ltd Pune",
+    "Link": "https://www.linkedin.com/in/pravin-korade-99bb2221a"
+  },
+  {
+    "Name": "Nihal Biswas",
+    "Designation": "Solutions Architect",
+    "Company name": "Leucinetech",
+    "Link": "https://www.linkedin.com/in/nihal-biswas-912a6612a"
+  },
+  {
+    "Name": "NANDAN Mukkawar",
+    "Designation": "Associate Product",
+    "Company name": "Accenture",
+    "Link": "https://www.linkedin.com/in/nandan-apm"
+  },
+  {
+    "Name": "Akshat Gupta",
+    "Designation": "System engineer",
+    "Company name": "Tcs",
+    "Link": "https://www.linkedin.com/in/akshat-g-98a174200"
+  },
+  {
+    "Name": "Stuti Karn",
+    "Designation": "Sap abap consultant",
+    "Company name": "Ltimindtree",
+    "Link": "https://www.linkedin.com/in/stuti-karn-0882782aa"
+  },
+  {
+    "Name": "Rohan  Mhetre",
+    "Designation": "Equity Research",
+    "Company name": "Trade Plus Wealth Advisory",
+    "Link": "https://www.linkedin.com/in/rohanmhetre-equityresearch"
+  },
+  {
+    "Name": "IPSITA AICH",
+    "Designation": "web developer",
+    "Company name": "zidio development",
+    "Link": "https://www.linkedin.com/in/ipsita-aich-791400260/"
+  },
+  {
+    "Name": "Vidushi Somani",
+    "Designation": "IT",
+    "Company name": "Havells India Ltd.",
+    "Link": "https://www.linkedin.com/in/vidushi-somani-67b0691b1"
+  },
+  {
+    "Name": "Sourabh Mishra",
+    "Designation": "Software Engineer 2",
+    "Company name": "MAQ Software",
+    "Link": "https://www.linkedin.com/in/somi96500"
+  },
+  {
+    "Name": "Arjun Shrivastva",
+    "Designation": "Associate Data Engineer",
+    "Company name": "Cognizant",
+    "Link": "https://www.linkedin.com/in/arsarjun"
+  },
+  {
+    "Name": "Raman",
+    "Designation": "Associate IT tech engineer",
+    "Company name": "Danieli Corus India Pvt Ltd",
+    "Link": "https://www.linkedin.com/in/ramandeep-suthar-400a3924b/"
+  },
+  {
+    "Name": "Lingaraj Sanganal",
+    "Designation": "Data Engineer",
+    "Company name": "7 Eleven Global Solution Center",
+    "Link": "https://www.linkedin.com/in/lingaraj-sanganal"
+  },
+  {
+    "Name": "Umang Vasistha",
+    "Designation": "Cloud support associate",
+    "Company name": "Amazon",
+    "Link": "https://www.linkedin.com/me"
+  },
+  {
+    "Name": "Pallavi Deep",
+    "Designation": "Process Associate",
+    "Company name": "Zinnia",
+    "Link": "https://www.linkedin.com/in/pallavi-deep-3a1965220"
+  },
+  {
+    "Name": "Satyam Pandey",
+    "Designation": "Associate",
+    "Company name": "PwC",
+    "Link": "https://www.linkedin.com/in/pandeysatyam3105/"
+  },
+  {
+    "Name": "Sumit Bhardwaj",
+    "Designation": "Consultant",
+    "Company name": "Deloitte USI (Monitor Deloitte/Deloitte Consulting)",
+    "Link": "https://www.linkedin.com/in/sumit-bhardwaj-4975151a0"
+  },
+  {
+    "Name": "Rekha Bhagawan Dolase",
+    "Designation": "Associate engineer",
+    "Company name": "Tecmotiv Solutions. Pvt. ltd ex-TCS",
+    "Link": "https://www.linkedin.com/in/rekha-dolase-733206203"
+  },
+  {
+    "Name": "Bhagwanji Verma",
+    "Designation": "MIS EXECUTIVE",
+    "Company name": "SLMG BEVERAGES PRIVATE LIMITED",
+    "Link": "https://www.linkedin.com/in/bhagwanji-verma-3600091b9"
+  },
+  {
+    "Name": "Astha Dixit",
+    "Designation": "Associate Consultant",
+    "Company name": "Infosys Ltd",
+    "Link": "https://www.linkedin.com/in/astha-dixit-503712194"
+  },
+  {
+    "Name": "Muskan Nagpal",
+    "Designation": "Associate",
+    "Company name": "Zomato",
+    "Link": "http://linkedin.com/in/iammuskan"
+  },
+  {
+    "Name": "Amit jain",
+    "Designation": "Article assistant",
+    "Company name": "Madhu mantri and associates",
+    "Link": "https://www.linkedin.com/in/amit-jain5623"
+  },
+  {
+    "Name": "Ranjit Meher",
+    "Designation": "Computer Operator",
+    "Company name": "Orient Constructions Pvt Ltd",
+    "Link": "https://www.linkedin.com/in/ranjit-meher-572026263"
+  },
+  {
+    "Name": "Nikhil Manik Sonwane",
+    "Designation": "Associate Consultant",
+    "Company name": "Infosys Limited",
+    "Link": "https://www.linkedin.com/in/nikhilmsonwane"
+  },
+  {
+    "Name": "Koushik Debnath",
+    "Designation": "Junior Machine Learning Engineer",
+    "Company name": "Adzguru Exports LLP",
+    "Link": "https://www.linkedin.com/in/koushik-debnath-7846981b3"
+  },
+  {
+    "Name": "Anuradha Agarwal",
+    "Designation": "Associate 2",
+    "Company name": "Pricewaterhouse Coopers LLP",
+    "Link": "https://www.linkedin.com/in/anuradha-agarwal-7005481ab"
+  },
+  {
+    "Name": "Rahul Singh",
+    "Designation": "Senior Associate",
+    "Company name": "Delhivery LTD",
+    "Link": "https://www.linkedin.com/in/rahul271"
+  },
+  {
+    "Name": "Avishto Banerjee",
+    "Designation": "Associate Data Scientist",
+    "Company name": "SAP LABS INDIA PVT LTD",
+    "Link": "https://www.linkedin.com/in/avishto-banerjee-6472b01a2/"
+  },
+  {
+    "Name": "Genga K",
+    "Designation": "Data scientist",
+    "Company name": "Yubi",
+    "Link": "https://www.linkedin.com/in/gengak"
+  },
+  {
+    "Name": "Vaibhav Jain",
+    "Designation": "Data Engineer",
+    "Company name": "Tredence",
+    "Link": "https://www.linkedin.com/in/vaibhav93"
+  },
+  {
+    "Name": "Apoorv Bhushan",
+    "Designation": "Talend Developer",
+    "Company name": "sybarite solution",
+    "Link": "https://www.linkedin.com/in/apoorv-bhushan-9428291a5/"
+  },
+  {
+    "Name": "Dhanpalsinh Solanki",
+    "Designation": "Senior Associate Banking and Insurance",
+    "Company name": "TCS",
+    "Link": "https://www.linkedin.com/in/solanki-dhanpalsinh-2044aba1"
+  },
+  {
+    "Name": "Prem Suryawanshi",
+    "Designation": "Cyber security - Endpoint Security",
+    "Company name": "ESDS Software Solution Limited",
+    "Link": "https://www.linkedin.com/in/prem21"
+  },
+  {
+    "Name": "Jinesh Gopani",
+    "Designation": "Research Associate",
+    "Company name": "S&P Global",
+    "Link": "https://www.linkedin.com/in/jinesh-gopani-5439751bb"
+  },
+  {
+    "Name": "Enakshi Modak",
+    "Designation": "Associate 2",
+    "Company name": "Pwc",
+    "Link": "https://www.linkedin.com/in/enakshimodak/"
+  },
+  {
+    "Name": "Aashutosh Karwa",
+    "Designation": "Associate Consultant",
+    "Company name": "Infosys",
+    "Link": "https://www.linkedin.com/in/aashutoshkarwa"
+  },
+  {
+    "Name": "Gaurav Santosh Bhosale",
+    "Designation": "Research Associate",
+    "Company name": "S&P Global",
+    "Link": "https://www.linkedin.com/in/gaurav-bhosale-gb96"
+  },
+  {
+    "Name": "Yashwanth K S",
+    "Designation": "Home loan NBFC",
+    "Company name": "ICICI bank",
+    "Link": "https://www.linkedin.com/in/yashwanth31"
+  },
+  {
+    "Name": "Isha",
+    "Designation": "Executive",
+    "Company name": "Coforge",
+    "Link": "http://www.linkedin.com/in/isha-cfalevel"
+  },
+  {
+    "Name": "Archara S",
+    "Designation": "Associate System Engineer",
+    "Company name": "CGI",
+    "Link": "https://www.linkedin.com/in/archara-sathis"
+  },
+  {
+    "Name": "Arpita Anil Raghorate",
+    "Designation": "Associate",
+    "Company name": "Atos Pune",
+    "Link": "https://www.linkedin.com/in/arpita-raghorate-35456a227"
+  },
+  {
+    "Name": "Sanjeev Kumar",
+    "Designation": "Data Engineer",
+    "Company name": "A.P. Moller - Maersk",
+    "Link": "http://linkedin.com/in/sanjeev-sahni"
+  },
+  {
+    "Name": "Sumit Kumar",
+    "Designation": "System Engineer (Prime- Grade C1)",
+    "Company name": "TCS",
+    "Link": "https://www.linkedin.com/in/sumitk18"
+  },
+  {
+    "Name": "Kanika Singh",
+    "Designation": "Product Delivery Lead",
+    "Company name": "Limetray",
+    "Link": "https://www.linkedin.com/in/kanika-singh-84176b1a5/"
+  },
+  {
+    "Name": "Prakhar Chauhan",
+    "Designation": "Associate",
+    "Company name": "ZS Associates",
+    "Link": "https://www.linkedin.com/in/prakharchauhan29"
+  },
+  {
+    "Name": "Aniket soni",
+    "Designation": "Data engineer",
+    "Company name": "HCLTech",
+    "Link": "https://www.linkedin.com/in/aniket-soni-b74a1b1b5"
+  },
+  {
+    "Name": "Mohammad Shadikali",
+    "Designation": "Information security",
+    "Company name": "Job léss",
+    "Link": "https://www.linkedin.com/in/shadikalimohammad-417a932b1"
+  },
+  {
+    "Name": "Vinayak U Alagawadi",
+    "Designation": "Sr Process Consultant",
+    "Company name": "Sagility Healthcare LLC",
+    "Link": "https://www.linkedin.com/in/vinayak-alagawadi-9660601a0"
+  },
+  {
+    "Name": "Hardik Agrawal",
+    "Designation": "Software Engineer",
+    "Company name": "Sopra Steria",
+    "Link": "https://www.linkedin.com/in/hardikagrawal9521/"
+  },
+  {
+    "Name": "Nandini Arun Sonar",
+    "Designation": "Software Developer Appreciate",
+    "Company name": "High Energy Materials Research Laboratory (HEMRL) - Defence Research and Development Organisation (DRDO)",
+    "Link": "https://www.linkedin.com/in/nandini-sonar"
+  },
+  {
+    "Name": "Purvesh Patil",
+    "Designation": "Full Stack Developer",
+    "Company name": "Wisematic Inc",
+    "Link": "https://www.linkedin.com/in/mr-purvesh-patil/"
+  },
+  {
+    "Name": "Inder Baldawa",
+    "Designation": "Senior Data Engineer",
+    "Company name": "Enerdatics",
+    "Link": "https://www.linkedin.com/in/inderbaldawa/"
+  },
+  {
+    "Name": "Anand Singh",
+    "Designation": "Application Engineer.",
+    "Company name": "Newgen Software",
+    "Link": "https://linkedin.com/in/anand-singh-18478520b"
+  },
+  {
+    "Name": "Pranay khuspe",
+    "Designation": "Business development associate",
+    "Company name": "Intellipaat software solutions",
+    "Link": "https://www.linkedin.com/in/pranay-khuspe-69566121a"
+  },
+  {
+    "Name": "Siddalingesh Hebballi",
+    "Designation": "BFSI",
+    "Company name": "Tata Consultancy Services",
+    "Link": "https://www.linkedin.com/in/siddalingesh-hebballi"
+  },
+  {
+    "Name": "Vedavalli Rohitha Lakshmi",
+    "Designation": "Sales",
+    "Company name": "Godrej Agrovet",
+    "Link": "https://www.linkedin.com/in/rohitha-lakshmi-vedavalli-5a78a2252"
+  },
+  {
+    "Name": "Dhiraj Subrao Desai",
+    "Designation": "Data Engineer",
+    "Company name": "Tata Consultancy Services",
+    "Link": "https://www.linkedin.com/in/dhiraj-desai"
+  },
+  {
+    "Name": "Shubhangi Kesharwani",
+    "Designation": "Customer Executive",
+    "Company name": "Pepsi",
+    "Link": "https://www.linkedin.com/in/ shubhangi-kesharwani"
+  },
+  {
+    "Name": "nishant mishra",
+    "Designation": "software Developer",
+    "Company name": "Dousoft It Solution Pvt. Ltd.",
+    "Link": "https://www.linkedin.com/in/nishantmishra22/"
+  },
+  {
+    "Name": "Samruddhi Manekar",
+    "Designation": "Associate",
+    "Company name": "PwC",
+    "Link": "https://www.linkedin.com/in/samruddhi-manekar/"
+  },
+  {
+    "Name": "Lenin Kumar",
+    "Designation": "Product Owner",
+    "Company name": "Realpage",
+    "Link": "https://www.linkedin.com/in/lenin-kumar-a979647a/"
+  },
+  {
+    "Name": "Rojalin behera",
+    "Designation": "Operation",
+    "Company name": "Accenture",
+    "Link": "https://www.linkedin.com/in/rojalin-behera-32a49b137"
+  },
+  {
+    "Name": "Anjali Singh",
+    "Designation": "Associate software engineer",
+    "Company name": "Tech Mahindra",
+    "Link": "https://www.linkedin.com/in/anjali-singh-02a194216"
+  },
+  {
+    "Name": "Shubham Kumar",
+    "Designation": "Operations Associate",
+    "Company name": "Ditto Insurance",
+    "Link": "https://www.linkedin.com/in/shubham-911/"
+  },
+  {
+    "Name": "Monika",
+    "Designation": "Sql developer",
+    "Company name": "Freedom software solution",
+    "Link": "https://www.linkedin.com/in/monika-nandha"
+  },
+  {
+    "Name": "Parteek Dahiya",
+    "Designation": "System engineer",
+    "Company name": "Tata consultancy services",
+    "Link": "https://www.linkedin.com/in/parteek-dahiya-59296a211"
+  },
+  {
+    "Name": "Praneeth kumar Tangudu",
+    "Designation": "Associate software engineer, gcp data engineering",
+    "Company name": "Accenture",
+    "Link": "https://www.linkedin.com/in/praneeth-tangudu-0ba5a61b7"
+  },
+  {
+    "Name": "Rachana Sahu",
+    "Designation": "Developer",
+    "Company name": "TDA",
+    "Link": "https://www.linkedin.com/in/rachana-sahu-549150243/"
+  },
+  {
+    "Name": "Meenatchi L",
+    "Designation": "Senior Engineer",
+    "Company name": "Tejas Networks Limited",
+    "Link": "https://www.linkedin.com/in/meenatchil"
+  },
+  {
+    "Name": "Ashutosh Kumar",
+    "Designation": "Associate",
+    "Company name": "GlobalBees Brands Pvt. Ltd.",
+    "Link": "http://www.linkedin.com/in/kr-ashutosh"
+  },
+  {
+    "Name": "Vedang Dadhich",
+    "Designation": "Data Engineer",
+    "Company name": "Searce",
+    "Link": "https://linkedin.com/in/vedang-dadhich"
+  },
+  {
+    "Name": "Pruthvi DM",
+    "Designation": "Electronics and communication engineering",
+    "Company name": "Bharat electronics limited",
+    "Link": "https://www.linkedin.com/in/pruthvidm"
+  },
+  {
+    "Name": "samiulla khan",
+    "Designation": "Head of Department - Holidays",
+    "Company name": "Cluster Tours and Travels Pvt. Ltd.",
+    "Link": "https://www.linkedin.com/in/samiulla-khan-10917228"
+  },
+  {
+    "Name": "Ashish Agarwal",
+    "Designation": "Consultant",
+    "Company name": "Capgemini",
+    "Link": "https://www.linkedin.com/in/ashiishagarwal"
+  },
+  {
+    "Name": "Ankit kumar",
+    "Designation": "Process Trainer",
+    "Company name": "Virtusa",
+    "Link": "https://www.linkedin.com/in/ankittkumar23"
   }
 ]
