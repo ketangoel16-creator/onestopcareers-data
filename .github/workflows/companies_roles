@@ -1,0 +1,43 @@
+# Name of the GitHub Action workflow
+name: Update Job Data from Google Sheet
+
+# Controls when the action will run
+on:
+  # Runs on a schedule (at 00:00 on day 1 of every 6th month)
+  schedule:
+    - cron: '0 0 1 */6 *'
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Defines the job(s) that will run as part of the workflow
+jobs:
+  update-json-file:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # A sequence of tasks that will be executed
+    steps:
+      # Step 1: Checks out your repository under $GITHUB_WORKSPACE,
+      # so your job can access it.
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      # Step 2: Fetches the latest JSON data from your Google Apps Script URL
+      # and saves it to a file named 'copmanies_roles.json'.
+      - name: Fetch JSON data from URL
+        run: curl -o copmanies_roles.json "https://script.googleusercontent.com/macros/echo?user_content_key=AehSKLgHEPZudO7rQOS-ouGORRSB6sFQspFKgsbv89b1UH3IMluYbp7cRnbaTXm7FE22drGb4HtudtCupNAh7qEDxCP7rtLmtdFch38HC3E_m0yIyFpUkIsQHIEJGfR-bqXd6oEIyKnTjjWvt0TYupR6mmXco5wdraYjlbDFmTPtOqZ6dSj3N2xY0xdjgi1S_HTito0Kn4cEzlozXX4Vzuwa8ZE-2LVVIWzo6-Tn6woferSidJ4bxC9P-KqZ2ZxgSTHmhEYkpDK2vF1BehaA8szVCsujCh5weA&lib=MjKkONclyNJvWiz6-zOiKsFMOtaQ-MCV5"
+
+      # Step 3: Commits the updated file back to your repository, but only
+      # if the file has actually changed.
+      - name: Commit and push if there are changes
+        run: |
+          # Configure git with a generic user name and email
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "action@github.com"
+          
+          # Add the file to the staging area
+          git add companies_roles.json
+          
+          # Check if there are any changes to commit. If not, the script exits.
+          # If there are changes, it creates a commit and pushes to the main branch.
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Automated upd
