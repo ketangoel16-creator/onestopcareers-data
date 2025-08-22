@@ -38,7 +38,7 @@ jobs:
           git config --global user.email "action@github.com"
           
           # Add the file to the staging area
-          git add job_roles_data.json
+          git add job_data.json
           
           # Check if there are any changes to commit. If not, the script exits.
           # If there are changes, it creates a commit and pushes to the main branch.
