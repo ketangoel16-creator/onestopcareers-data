@@ -25,7 +25,7 @@ jobs:
       # Step 2: Fetches the latest JSON data from your Google Apps Script URL
       # and saves it to a file named 'copmanies_roles.json'.
       - name: Fetch JSON data from URL
-        run: curl -o copmanies_roles.json "https://script.googleusercontent.com/macros/echo?user_content_key=AehSKLgHEPZudO7rQOS-ouGORRSB6sFQspFKgsbv89b1UH3IMluYbp7cRnbaTXm7FE22drGb4HtudtCupNAh7qEDxCP7rtLmtdFch38HC3E_m0yIyFpUkIsQHIEJGfR-bqXd6oEIyKnTjjWvt0TYupR6mmXco5wdraYjlbDFmTPtOqZ6dSj3N2xY0xdjgi1S_HTito0Kn4cEzlozXX4Vzuwa8ZE-2LVVIWzo6-Tn6woferSidJ4bxC9P-KqZ2ZxgSTHmhEYkpDK2vF1BehaA8szVCsujCh5weA&lib=MjKkONclyNJvWiz6-zOiKsFMOtaQ-MCV5"
+        run: curl -o companies_roles.json "https://script.googleusercontent.com/macros/echo?user_content_key=AehSKLgHEPZudO7rQOS-ouGORRSB6sFQspFKgsbv89b1UH3IMluYbp7cRnbaTXm7FE22drGb4HtudtCupNAh7qEDxCP7rtLmtdFch38HC3E_m0yIyFpUkIsQHIEJGfR-bqXd6oEIyKnTjjWvt0TYupR6mmXco5wdraYjlbDFmTPtOqZ6dSj3N2xY0xdjgi1S_HTito0Kn4cEzlozXX4Vzuwa8ZE-2LVVIWzo6-Tn6woferSidJ4bxC9P-KqZ2ZxgSTHmhEYkpDK2vF1BehaA8szVCsujCh5weA&lib=MjKkONclyNJvWiz6-zOiKsFMOtaQ-MCV5"
 
       # Step 3: Commits the updated file back to your repository, but only
       # if the file has actually changed.
