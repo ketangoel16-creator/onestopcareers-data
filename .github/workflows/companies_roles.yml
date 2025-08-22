@@ -23,9 +23,11 @@ jobs:
         uses: actions/checkout@v3
 
       # Step 2: Fetches the latest JSON data from your Google Apps Script URL
-      # and saves it to a file named 'copmanies_roles.json'.
+      # and saves it to a file named 'job_data.json'.
+      # The -L flag is added to follow redirects from the Google script URL.
+      # The URL is wrapped in single quotes for safety.
       - name: Fetch JSON data from URL
-        run: curl -o companies_roles.json "https://script.googleusercontent.com/macros/echo?user_content_key=AehSKLgHEPZudO7rQOS-ouGORRSB6sFQspFKgsbv89b1UH3IMluYbp7cRnbaTXm7FE22drGb4HtudtCupNAh7qEDxCP7rtLmtdFch38HC3E_m0yIyFpUkIsQHIEJGfR-bqXd6oEIyKnTjjWvt0TYupR6mmXco5wdraYjlbDFmTPtOqZ6dSj3N2xY0xdjgi1S_HTito0Kn4cEzlozXX4Vzuwa8ZE-2LVVIWzo6-Tn6woferSidJ4bxC9P-KqZ2ZxgSTHmhEYkpDK2vF1BehaA8szVCsujCh5weA&lib=MjKkONclyNJvWiz6-zOiKsFMOtaQ-MCV5"
+        run: curl -L -o job_data.json 'https://script.googleusercontent.com/macros/echo?user_content_key=AehSKLgHEPZudO7rQOS-ouGORRSB6sFQspFKgsbv89b1UH3IMluYbp7cRnbaTXm7FE22drGb4HtudtCupNAh7qEDxCP7rtLmtdFch38HC3E_m0yIyFpUkIsQHIEJGfR-bqXd6oEIyKnTjjWvt0TYupR6mmXco5wdraYjlbDFmTPtOqZ6dSj3N2xY0xdjgi1S_HTito0Kn4cEzlozXX4Vzuwa8ZE-2LVVIWzo6-Tn6woferSidJ4bxC9P-KqZ2ZxgSTHmhEYkpDK2vF1BehaA8szVCsujCh5weA&lib=MjKkONclyNJvWiz6-zOiKsFMOtaQ-MCV5'
 
       # Step 3: Commits the updated file back to your repository, but only
       # if the file has actually changed.
@@ -36,8 +38,9 @@ jobs:
           git config --global user.email "action@github.com"
           
           # Add the file to the staging area
-          git add companies_roles.json
+          git add job_roles_data.json
           
           # Check if there are any changes to commit. If not, the script exits.
           # If there are changes, it creates a commit and pushes to the main branch.
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Automated upd
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Automated update of job_data.json" && git push)
+
